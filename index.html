@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex space-around">
+            <a class="logo flex space-between" href="#">
+                <img src="assets/images/logo.png" alt="logo">
+                <p class="logo-text">Journey</p>
+            </a>
+            <nav>
+                <ul class="flex space-between">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Top Destination</a></li>
+                    <li><a href="#">Recommended place</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container hero">
+            <div class="hero-text">
+                <h1>Let's begin</h1>
+                <img class="dots" src="assets/images/dots-3.png" alt="Let's Begin">
+                <p>We assist you to choose the best</p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <form action="#" method="post">
+                <div class="flex space-between hero-form">
+                    <label class="destination" for="destination">Choose Your Destination
+                        <input type="text" id="destination" name="destination" placeholder="Type your destination...">
+                    </label>
+                    <label class="room" for="room">How many rooms?
+                        <input type="number" id="room" name="room" placeholder="1 Room">
+                    </label>
+                    <label class="adult" for="adult">Adult
+                        <input type="number" id="adult" name="adult" placeholder="1">
+                    </label>
+                    <label class="children" for="children">Children
+                        <input type="number" id="children" name="children" placeholder="0">
+                    </label>
+                </div>
+                <div class="flex space-between">
+                    <label class="check-in" for="check-in">Check In Date
+                        <input type="text" id="check-in" name="check-in" placeholder="Check In">
+                    </label>
+                    <label class="check-out" for="check-out">Check Out Date
+                        <input type="text" id="check-out" name="check-out" placeholder="Check Out">
+                    </label>
+                    <a class="btn" id="btn-diff" href="#">check availability</a>
+                </div>
+            </form>
+        </section>
+
+        <section class="locations container">
+            <div class="journey-priority">
+                <h2>Your <span class="heavy">Journey</span> is our priority</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a class="btn btn-2" href="#">continue explore</a>
+            </div>
+        </section>
+
+        <section class="container">
+            <article class="art-1">
+                <div class="art-box art-box-green">
+                    <div class="arrow">
+                        <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                        <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+                    </div>
+                    <div class="art-text art-text-green">
+                        <h3>Europe's most visited places</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                        <a class="art-btn art-btn-green" href="#">continue reading</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="art-2">
+                <div class="art-box art-box-pink">
+                    <div class="art-text art-text-pink">
+                        <h3>Asia's most popular places</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ut labore et dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea commodo consequat.</p>
+                        <a class="art-btn art-btn-pink" href="#">continue reading</a>
+                    </div>
+                    <div class="arrow">
+                        <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                        <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="art-3">
+                <div class="art-box art-box-green">
+                    <div class="arrow">
+                        <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                        <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+                    </div>
+                    <div class="art-text art-text-green">
+                        <h3>America's most famous places</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                        <a class="art-btn art-btn-green" href="#">continue reading</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="container section-04">
+            <div class="continent">
+                <img src="assets/images/north-america.png" alt="north america map" width="100%">
+                <address>north america</address>
+            </div>
+            <div class="continent">
+                <img src="assets/images/south-america.png" alt="south america map" width="100%">
+                <address>south america</address>
+            </div>
+            <div class="continent">
+                <img src="assets/images/europe.png" alt="europe map" width="100%">
+                <address>europe</address>
+            </div>
+            <div class="continent asia">
+                <img src="assets/images/asia.png" alt="asia map" width="100%">
+                <address>asia</address>
+            </div>
+            <div class="continent">
+                <img src="assets/images/africa.png" alt="africa map" width="100%">
+                <address>africa</address>
+            </div>
+            <div class="continent">
+                <img src="assets/images/australia.png" alt="australia map" width="100%">
+                <address>australia</address>
+            </div>
+            <div class="continent">
+                <img src="assets/images/antartica.png" alt="antarctica map" width="100%">
+                <address>antarctica</address>
+            </div>
+        </section>
+
+        <section class="container section-05">
+            <div class="pricing-container">
+                <article class="pricing-art">
+                    <div class="pricing-img">
+                        <img src="assets/images/tm-img-04.jpg" alt="asia resort hotel" width="100%">
+                    </div>
+                    <div class="pricing-text">
+                        <h4>asia resort hotel</h4>
+                        <address>Singapore</address>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="price">
+                        <span class="heavy">$440</span>
+                        <a href="#">continue reading</a>
+                    </div>
+                </article>
+
+                <article class="pricing-art">
+                    <div class="pricing-img">
+                        <img src="assets/images/tm-img-05.jpg" alt="asia resort hotel" width="100%">
+                    </div>
+                    <div class="pricing-text">
+                        <h4>Nullam eget est a nisl</h4>
+                        <address>Yangon, Myanmar</address>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="price">
+                        <span class="heavy">$450</span>
+                        <a href="#">continue reading</a>
+                    </div>
+                </article>
+
+                <article class="pricing-art">
+                    <div class="pricing-img">
+                        <img src="assets/images/tm-img-06.jpg" alt="asia resort hotel" width="100%">
+                    </div>
+                    <div class="pricing-text">
+                        <h4>proin interdum ullamcorper</h4>
+                        <address>Bangkok, Thailand</address>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="price">
+                        <span class="heavy">$460</span>
+                        <a href="#">continue reading</a>
+                    </div>
+                </article>
+
+                <article class="pricing-art">
+                    <div class="pricing-img">
+                        <img src="assets/images/tm-img-07.jpg" alt="asia resort hotel" width="100%">
+                    </div>
+                    <div class="pricing-text">
+                        <h4>lorem ipsum dolor sit</h4>
+                        <address>Vientiane, Laos</address>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="price">
+                        <span class="heavy">$470</span>
+                        <a href="#">continue reading</a>
+                    </div>
+                </article>
+                <div class="btn-div">
+                    <a class="btn btn-2" href="#">show more places</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-06 container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15243983.007440707!2d81.914063!3d21.125498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5cca965fd6bc782d!2sMelange%20Residences%20-%202%263%20BHK%20Cosmo%20Homes%20%40%20Hinjawadi!5e0!3m2!1sen!2sin!4v1594559403048!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <form class="form-1" action="index.html" method="post">
+                <div class="flex space-between">
+                    <input class="name" type="text" name="username" placeholder="Name">
+                    <input class="email" type="email" name="useremail" placeholder="Email">
+                </div>
+                <input type="text" name="subject" placeholder="Subject"><br>
+                <textarea name="message" rows="5" placeholder="Message"></textarea><br>
+                <button class="btn btn-send" type="button" name="button">Send message now</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer container">
+        <small>Copyright &copy; 2020 Your Company. Designed by Template Mo</small>
+    </footer>
+    <script src="https://kit.fontawesome.com/43da756c39.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
